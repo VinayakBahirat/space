@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'roboto'sans-serif;
+    src: url('../font/Roboto/Roboto-Black.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'roboto' sans-serif;
+    src: url('../font/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'roboto' sans-serif;
+    src: url('../font/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'roboto' sans-serif;
+    src: url('../font/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+    background-color:;
+}
+
+.bg-color {
+    background-color: #e5f8f3;
+}
+.footer-bg {
+    background-color: #005c45;
+}
+.footer-text-color {
+    color: #b3cec8;
+}
+.footer-link-hedding {
+    color: #00b46f;
+    font-size: 15px;
+}
+.icon-div {
+    width: 35px;
+    height: 35px;
+    background-color: #196c58;
+}
+.icon-div-width {
+    width: 85px;
+    height: 85px;
+}
+.secondary-headding {
+    color: #f1b980;
+}
+
+.h1-color {
+    color: #008060;
+}
+.hedding-color {
+    color: #008060;
+}
+.bg-color-light-blue {
+    background-color: #e5f8f3;
+}
+.position-relative {
+    position: relative;
+}
+
+
+.solving-problems-link {
+    width:60% ;
+    height: 3%;
+    background-color: #e7eaf3;
+    font-size: 10px;
+}
+.paragraph-secondary {
+    font-size: 28px;
+    line-height: 42px;
+    color: #00221c;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.card {
+    border: 0px;
+}
+.font-grey {
+    color: #51596c ;
+}
+.paragraph-font {
+    font-size: 18px;
+}
+.overflow-padding {
+    padding: 0px 0px 50px 50px ;
+}
+.border-green {
+    border-left: 3px solid #00b46f;
+}
+.bg-light-green {
+    background-color: #196c58;
+}
+.bg-light-green:hover{
+    background-color: #fff;
+}
+.footer-button {
+    background-color: #f1b980;
+    font-size: 10px;
+    border: 0px;
+    padding: 2px 6px;
+}
+.h2-font-size {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.secondary-headding-size {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.hedding-color:hover {
+    color: #333;
+}
+.footer-link-color {
+    color:#f9f0cd;
+}
+.footer-link-color:hover{
+    color: #675b5b;
+}
+.icon-div:hover {
+    background-color: #202020;
+   
+}
+@media screen and (min-width:999px) {
+    .nav-width {
+        width: 75%;
+        margin: 0px auto;
+    }
+    .h2-font-size {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 72px;
+        
+    }
+    .position-absolute {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .position-absolute-form-chats-img {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+    .services-section-div {
+        width: 50%;
+    }
+    .secondary-headding-size {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:800px) {
+    .desplay-none {
+        display: none;
+    }
+}
+
