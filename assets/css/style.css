@@ -145,11 +145,13 @@ body {
 :focus-visible {
     outline: none;
 }
-.dropdown-menu.show {
+.navbar .dropdown-menu.show {
     display: flex;
 }
 
-
+@media screen and (max-width:800px) {
+    
+}
 /* bog-screen */
 
 @media screen and (min-width:999px) {
