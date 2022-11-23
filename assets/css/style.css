@@ -98,6 +98,7 @@ body {
 }
 .bg-light-green:hover{
     background-color: #fff;
+    color: #000 !important;
 }
 .footer-button {
     background-color: #f1b980;
@@ -119,10 +120,10 @@ body {
     color: #333;
 }
 .footer-link-color {
-    color:#f9f0cd;
+    color:#fff;
 }
 .footer-link-color:hover{
-    color: #675b5b;
+    color: #d0cece;
 }
 .icon-div:hover {
     background-color: #202020;
@@ -144,7 +145,13 @@ body {
 :focus-visible {
     outline: none;
 }
-
+.dropdown-menu.show {
+    display: flex;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu.position-nav {
+    position: absolute;
+    left: -360px;
+}
 
 /* bog-screen */
 
@@ -192,6 +199,10 @@ body {
         color: #00221c;
         font-weight: 400;
         letter-spacing: 0.5px;
+    }
+    .border-footer {
+        border-left: 1px solid rgba(255,255,255,.1);
+        border-right: 1px solid rgba(255,255,255,.1);
     }
 }
 
